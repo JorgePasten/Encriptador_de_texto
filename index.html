@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Encriptador Alura</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="reset.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<h1>E N C R I P T A D O R</h1>	
+		</header>
+
+		<main>
+			<section class="ingreso">
+				<form id="form">
+					<p class="titulo">
+						Ingresa tu mensaje:</p>
+					<textarea cols="54" rows="8" id="mensaje" class="input-mensaje"></textarea>
+					<div class="botones">
+						<button id="codificar" class="enviar">Encriptar</button>
+						<button id="decodificar" class="enviar">Desencriptar</button>
+					</div>
+				</form>
+			</section>
+
+			<section class="msg-box">
+				<h2 class="identificador">.</h2>
+
+				<textarea cols="54" rows="6" id="msg" class="msg"></textarea>
+				<div>
+					<button id="copiar" class="copiar">Copiar mensaje</button>
+				</div>
+			</section>
+
+		</main>
+		<script src="script.js"></script>
+
+		<footer>
+			<p class="copyrright">George iO &copy 2022</p>
+		</footer>
+	</body> 
+</html>
